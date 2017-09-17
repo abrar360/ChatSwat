@@ -10,7 +10,7 @@ Chat hijackers often add themselves to a GroupMe using a group member's phone an
 * can be activated after a hijack has occured to remove rejoining hijackers and regain control of the chat
 * can be used as a preventative measure to stop hijacking from occurring in the first place
 ------
-# Instructions
+## Instructions
 1. Replace your token ID in kickerbot.bat
 2. Replace group name in Scanner.py and ChatSwat1.bat
 3. Replace Adam with target name in ChatSwat1.bat
