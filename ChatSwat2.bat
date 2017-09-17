@@ -1,7 +1,7 @@
 @echo off
 @echo begin...> logs.txt
 :loop
-curl -X GET "https://api.groupme.com/v3/groups?token=YOURTOKEN&&per_page=500" -k > dump.txt
+curl -X GET https://api.groupme.com/v3/groups/%groupid%?token=YOURTOKEN -k > dump.txt
 set /p ans=<dump.txt
 
 findstr TARGETNAME dump.txt >nul 2>&1
